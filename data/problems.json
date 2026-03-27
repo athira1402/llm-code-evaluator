@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Find Square Root",
+    "difficulty": "easy",
+    "description": "Given a non-negative integer x, compute and return the integer square root of x (floor value).",
+    "constraints": "0 <= x <= 10^9",
+    "test_cases": {
+      "basic": [
+        { "input": "4", "output": "2" },
+        { "input": "8", "output": "2" }
+      ],
+      "edge": [
+        { "input": "0", "output": "0" },
+        { "input": "1", "output": "1" }
+      ],
+      "stress": [
+        { "input": "1000000000", "output": "31622" }
+      ]
+    }
+  },
+  {
+    "title": "Koko Eating Bananas",
+    "difficulty": "medium",
+    "description": "Koko can eat bananas at a speed of k per hour. Find minimum k such that all bananas are eaten within h hours.",
+    "constraints": "1 <= n <= 10^5",
+    "test_cases": {
+      "basic": [
+        { "input": "4 8\n3 6 7 11", "output": "4" },
+        { "input": "5 5\n30 11 23 4 20", "output": "30" }
+      ],
+      "edge": [
+        { "input": "1 1\n10", "output": "10" }
+      ],
+      "stress": [
+        { "input": "5 10\n100000 100000 100000 100000 100000", "output": "50000" }
+      ]
+    }
+  },
+  {
+    "title": "Minimum Days to Make Bouquets",
+    "difficulty": "medium",
+    "description": "Given bloom days, find minimum days to make m bouquets of k adjacent flowers.",
+    "constraints": "1 <= n <= 10^5",
+    "test_cases": {
+      "basic": [
+        { "input": "5 3 1\n1 10 3 10 2", "output": "3" },
+        { "input": "5 3 2\n1 10 3 10 2", "output": "-1" }
+      ],
+      "edge": [
+        { "input": "1 1 1\n5", "output": "5" }
+      ],
+      "stress": [
+        { "input": "6 2 3\n7 7 7 7 12 7", "output": "12" }
+      ]
+    }
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "hard",
+    "description": "Find median of two sorted arrays.",
+    "constraints": "0 <= n <= 10^5",
+    "test_cases": {
+      "basic": [
+        { "input": "2 1\n1 3\n2", "output": "2.0" },
+        { "input": "2 2\n1 2\n3 4", "output": "2.5" }
+      ],
+      "edge": [
+        { "input": "0 1\n\n1", "output": "1.0" }
+      ],
+      "stress": [
+        { "input": "3 3\n100000 200000 300000\n400000 500000 600000", "output": "350000.0" }
+      ]
+    }
+  },
+  {
+    "title": "Find Peak Element II",
+    "difficulty": "hard",
+    "description": "Find a peak element in a 2D grid where element is greater than its neighbors.",
+    "constraints": "1 <= m, n <= 500",
+    "test_cases": {
+      "basic": [
+        { "input": "2 2\n1 4\n3 2", "output": "0 1" }
+      ],
+      "edge": [
+        { "input": "1 1\n5", "output": "0 0" }
+      ],
+      "stress": [
+        { "input": "3 3\n10 20 15\n21 30 14\n7 16 32", "output": "1 1" }
+      ]
+    }
+  }
+]
